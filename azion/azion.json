@@ -1,0 +1,63 @@
+{
+  "name": "TachXMijasResumeprogram1",
+  "bucket": "TachXMijasResumeprogram1",
+  "preset": "astro",
+  "env": "production",
+  "prefix": "20241031105458",
+  "not-first-run": true,
+  "function": {
+    "id": 31504,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 30183,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1730373094,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1730371748,
+    "name": "TachXMijasResumeprogram1",
+    "domain_name": "svckzmdpfn.map.azionedge.net",
+    "url": "https://svckzmdpfn.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 161663,
+      "origin-key": "f3cb5448-ab23-4899-a77b-81dc34735fd4",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 314108,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 314109,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 314110,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      },
+      {
+        "id": 314111,
+        "name": "Redirect to index.html for Subpaths",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
