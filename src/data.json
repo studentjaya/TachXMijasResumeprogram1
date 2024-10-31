@@ -1,20 +1,20 @@
 {
   "meta": {
-    "name": "Emily Johnson",
-    "title": "Software Engineer",
+    "name": "Jayasmita Barisal",
+    "title": "Web Devloper",
     "website": "https://emjo.biz",
     "location": "Seattle, WA",
-    "email": "emily.johnson@example.com",
+    "email": "emily.barislajaysmita@gmail.com",
     "phone": "+1 (555) 987-6543",
-    "bio": "Dedicated software engineer with a strong background in building robust and scalable applications. Skilled in Java, Python, and JavaScript technologies. Experienced with Meta, Amazon, and Google."
+    "bio": "Dedicated web devloper with a strong background in building responsive and user understandable applications. Skilled in Java, html,css, and JavaScript technologies."
   },
   "education": [
     {
-      "institution": "University of Washington",
-      "location": "Seattle, WA",
+      "institution": "FM University",
+      "location": "BALASORE, Odisha",
       "area": "Computer Science",
-      "degreeType": "Bachelor of Science",
-      "endDate": "2015"
+      "degreeType": "Bachelor of computer science",
+      "endDate": "2023"
     }
   ],
   "work": [
@@ -63,13 +63,13 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["Java", "Python", "JavaScript"]
+      "keywords": ["Java", "css,html", "JavaScript"]
     },
     {
       "name": "Tools & Technologies",
       "keywords": [
         "Docker",
-        "Kubernetes",
+        "vs code",
         "Git",
         "MySQL",
         "MongoDB",
